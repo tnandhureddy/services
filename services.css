@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:white;
+    color:black;
+    line-height:1.8;
+}
+
+
+.hero{
+    padding:100px 20px 70px;
+    text-align:center;
+    border-bottom:1px solid white;
+}
+
+.hero h1{
+    font-size:4rem;
+    margin-bottom:15px;
+}
+
+.hero p{
+    color:black;
+    max-width:700px;
+    margin:auto;
+}
+
+.updated{
+    display:inline-block;
+    margin-top:25px;
+    padding:8px 18px;
+    border:1px solid white;
+    border-radius:50px;
+    color:black;
+}
+
+.terms-container{
+    max-width:1400px;
+    margin:auto;
+    display:flex;
+    gap:80px;
+    padding:60px 30px;
+}
+
+
+.sidebar{
+    width:260px;
+    flex-shrink:0;
+    position:sticky;
+    top:30px;
+    height:fit-content;
+}
+
+.sidebar h3{
+    font-size:14px;
+    text-transform:uppercase;
+    color:black;
+    margin-bottom:20px;
+}
+
+.sidebar a{
+    display:block;
+    text-decoration:none;
+    color:black;
+    padding:8px 0;
+    transition:0.3s;
+}
+
+.sidebar a:hover{
+    color:blue;
+    transform:translateX(5px);
+}
+
+
+.content{
+    flex:1;
+    max-width:850px;
+}
+
+.content section{
+    padding-bottom:50px;
+    margin-bottom:50px;
+    border-bottom:1px solid white;
+}
+
+.content h2{
+    font-size:2rem;
+    margin-bottom:20px;
+    color:black;
+}
+
+.content p{
+    margin-bottom:15px;
+    color:black;
+}
+
+.content ul{
+    margin-left:25px;
+    color:black;
+}
+
+footer{
+    text-align:center;
+    padding:40px;
+    border-top:1px solid white;
+    color:black;
+}
